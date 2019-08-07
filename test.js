@@ -54,7 +54,7 @@ var map1 = initializeMap(elementid="map1", zoomControl=false, zoomSnap=0.5,
 zoomDelta=0.5, minZoom=0, maxZoom=5, maxBound=500);
 
 var t_panel_1 = new PanelTsne({name:"tsne", map:map1, mapid:1, annot_set:a_set,
-file_tsne:"tsne_tsne_dim_coord.txt", load_tsne:true, default_annot:"HMRF_k6_b.15", load_annot:true});
+file_tsne:"umap_umap_dim_coord.txt", load_tsne:true, default_annot:"HMRF_k6_b.15", load_annot:true});
 
 
 var map2 = initializeMap(elementid="map2", zoomControl=false, zoomSnap=0.5, zoomDelta=0.5, minZoom=0, maxZoom=5, maxBound=2000);
@@ -67,7 +67,7 @@ var map3 = initializeMap(elementid="map3", zoomControl=false, zoomSnap=0.5,
 zoomDelta=0.5, minZoom=0, maxZoom=5, maxBound=500);
 
 var t_panel_3 = new PanelTsne({name:"tsne", map:map3, mapid:3, annot_set:a_set,
-file_tsne:"tsne_tsne_dim_coord.txt", load_tsne:true, default_annot:"pleiden_clus", load_annot:true});
+file_tsne:"umap_umap_dim_coord.txt", load_tsne:true, default_annot:"pleiden_clus", load_annot:true});
 
 
 var map4 = initializeMap(elementid="map4", zoomControl=false, zoomSnap=0.5, zoomDelta=0.5, minZoom=0, maxZoom=5, maxBound=2000);

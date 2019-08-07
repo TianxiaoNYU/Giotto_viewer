@@ -19,7 +19,7 @@
 		"maxBound": 500,
 		"id": 1,
 		"annot": "HMRF_k6_b.15",
-		"file_tsne": "tsne_tsne_dim_coord.txt",
+		"file_tsne": "umap_umap_dim_coord.txt",
 		"map_height": "500px"
 	},
 
@@ -37,7 +37,7 @@
 		"maxBound": 500,
 		"id": 3,
 		"annot": "pleiden_clus",
-		"file_tsne": "tsne_tsne_dim_coord.txt",
+		"file_tsne": "umap_umap_dim_coord.txt",
 		"map_height": "500px"
 	},
 

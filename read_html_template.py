@@ -33,7 +33,7 @@ def read_template_4(jsfile, cssfile, config):
  	  <div class="row no-gutters">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row no-gutters">
-			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_1"]["type"]=="PanelPhysical":
@@ -69,14 +69,14 @@ def read_template_4(jsfile, cssfile, config):
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
     	    <div id="map1"></div>
 		  </div>
 		</div>
       </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row no-gutters">
-	       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	       <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_2"]["type"]=="PanelPhysical":
@@ -110,7 +110,7 @@ def read_template_4(jsfile, cssfile, config):
              <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map2"></div>
 	      </div>
        </div>
@@ -119,7 +119,7 @@ def read_template_4(jsfile, cssfile, config):
  	<div class="row no-gutters">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row no-gutters">
-			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_3"]["type"]=="PanelPhysical":
@@ -154,14 +154,14 @@ def read_template_4(jsfile, cssfile, config):
 			  <div><button id="map3_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
     	    <div id="map3"></div>
 		  </div>
 		</div>
       </div>
       <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
         <div class="row no-gutters">
-	      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_4"]["type"]=="PanelPhysical":
@@ -195,7 +195,7 @@ def read_template_4(jsfile, cssfile, config):
              <div><button id="map4_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map4_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map4"></div>
 	      </div>
        </div>
@@ -252,7 +252,7 @@ def read_template_2_horizontal(jsfile, cssfile, config):
  	  <div class="row no-gutters">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row no-gutters">
-			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 	if config["map_1"]["type"]=="PanelPhysical":
 		code_2 += """
@@ -286,14 +286,14 @@ def read_template_2_horizontal(jsfile, cssfile, config):
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
     	    <div id="map1"></div>
 		  </div>
 		</div>
       </div>
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row no-gutters">
-	       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	       <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_2"]["type"]=="PanelPhysical":
@@ -327,7 +327,7 @@ def read_template_2_horizontal(jsfile, cssfile, config):
              <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map2"></div>
 	      </div>
        </div>
@@ -373,7 +373,7 @@ def read_template_2_vertical(jsfile, cssfile, config):
   <body>
 	<div class="container-fluid">
           <div class="row no-gutters">
-			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_1"]["type"]=="PanelPhysical":
@@ -408,12 +408,12 @@ def read_template_2_vertical(jsfile, cssfile, config):
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
     	    <div id="map1"></div>
 		  </div>
         </div>
           <div class="row no-gutters">
-	       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	       <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_2"]["type"]=="PanelPhysical":
@@ -447,7 +447,7 @@ def read_template_2_vertical(jsfile, cssfile, config):
              <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map2"></div>
 	      </div>
        </div>
@@ -496,7 +496,7 @@ def read_template_6(jsfile, cssfile, config):
  	  <div class="row no-gutters">
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="row no-gutters">
-			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_1"]["type"]=="PanelPhysical":
@@ -531,14 +531,14 @@ def read_template_6(jsfile, cssfile, config):
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
     	    <div id="map1"></div>
 		  </div>
 		</div>
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="row no-gutters">
-	       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	       <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_2"]["type"]=="PanelPhysical":
@@ -572,7 +572,7 @@ def read_template_6(jsfile, cssfile, config):
              <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map2"></div>
 	      </div>
        </div>
@@ -580,7 +580,7 @@ def read_template_6(jsfile, cssfile, config):
 
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="row no-gutters">
-	       <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	       <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_3"]["type"]=="PanelPhysical":
@@ -614,7 +614,7 @@ def read_template_6(jsfile, cssfile, config):
              <div><button id="map3_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map3_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map3"></div>
 	      </div>
        </div>
@@ -624,7 +624,7 @@ def read_template_6(jsfile, cssfile, config):
  	<div class="row no-gutters">
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="row no-gutters">
-			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_4"]["type"]=="PanelPhysical":
@@ -659,7 +659,7 @@ def read_template_6(jsfile, cssfile, config):
 			  <div><button id="map4_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
     	    <div id="map4"></div>
 		  </div>
 		</div>
@@ -668,7 +668,7 @@ def read_template_6(jsfile, cssfile, config):
 
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div class="row no-gutters">
-	      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_5"]["type"]=="PanelPhysical":
@@ -702,7 +702,7 @@ def read_template_6(jsfile, cssfile, config):
              <div><button id="map5_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map5_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map5"></div>
 	      </div>
        </div>
@@ -710,7 +710,7 @@ def read_template_6(jsfile, cssfile, config):
 
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
         <div class="row no-gutters">
-	      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+	      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 """
 
 	if config["map_6"]["type"]=="PanelPhysical":
@@ -744,7 +744,7 @@ def read_template_6(jsfile, cssfile, config):
              <div><button id="map6_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
 		     <div><button id="map6_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
             <div id="map6"></div>
 	      </div>
        </div>
