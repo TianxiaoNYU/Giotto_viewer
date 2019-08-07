@@ -93,6 +93,21 @@ config["map_5"]["map_height"], config["map_6"]["map_height"])
 #cell_type li {
     font-size: 14px;
 }
+
+.row {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: : 0px;
+  margin-right: 0px;
+}
+
+.adjust_border
+{
+  border:solid;
+  border-color:#ccc;
+  padding:4px;
+  border-radius:5px;
+}
 """
 	return [ab, ab_2, ab_3]
 
@@ -173,6 +188,21 @@ config["map_3"]["map_height"], config["map_4"]["map_height"])
 #cell_type li {
     font-size: 14px;
 }
+
+.row {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: : 0px;
+  margin-right: 0px;
+}
+
+.adjust_border
+{
+  border:solid;
+  border-color:#ccc;
+  padding:4px;
+  border-radius:5px;
+}
 """
 	return [ab, ab_2, ab_3]
 
@@ -239,6 +269,21 @@ html, body {
 }
 #cell_type li {
     font-size: 14px;
+}
+
+.row {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: : 0px;
+  margin-right: 0px;
+}
+
+.adjust_border
+{
+  border:solid;
+  border-color:#ccc;
+  padding:4px;
+  border-radius:5px;
 }
 """
 	return [ab, ab_2, ab_3]

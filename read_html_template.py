@@ -30,7 +30,7 @@ def read_template_4(jsfile, cssfile, config):
 	code_2 = """
   <body>
 	<div class="container-fluid">
- 	  <div class="row no-gutters">
+ 	  <div class="row">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row no-gutters">
 			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -65,11 +65,11 @@ def read_template_4(jsfile, cssfile, config):
 			  <button id="map1_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 			  <div id="map1_lassoEnabled"><small>Disabled</small></div>
 			  <br>
-              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
     	    <div id="map1"></div>
 		  </div>
 		</div>
@@ -107,16 +107,16 @@ def read_template_4(jsfile, cssfile, config):
 			<button id="map2_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map2_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map2"></div>
 	      </div>
        </div>
       </div>
     </div>
- 	<div class="row no-gutters">
+ 	<div class="row">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="row no-gutters">
 			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -150,11 +150,11 @@ def read_template_4(jsfile, cssfile, config):
 				<button id="map3_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 			  <div id="map3_lassoEnabled"><small>Disabled</small></div>
 			  <br>
-              <div><button id="map3_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+              <div><button id="map3_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 			  <div><button id="map3_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
     	    <div id="map3"></div>
 		  </div>
 		</div>
@@ -192,10 +192,10 @@ def read_template_4(jsfile, cssfile, config):
 			<button id="map4_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map4_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map4_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map4_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map4_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map4"></div>
 	      </div>
        </div>
@@ -282,11 +282,11 @@ def read_template_2_horizontal(jsfile, cssfile, config):
 			  <button id="map1_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 			  <div id="map1_lassoEnabled"><small>Disabled</small></div>
 			  <br>
-              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
     	    <div id="map1"></div>
 		  </div>
 		</div>
@@ -324,10 +324,10 @@ def read_template_2_horizontal(jsfile, cssfile, config):
 			<button id="map2_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map2_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map2"></div>
 	      </div>
        </div>
@@ -404,11 +404,11 @@ def read_template_2_vertical(jsfile, cssfile, config):
 			  <button id="map1_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 			  <div id="map1_lassoEnabled"><small>Disabled</small></div>
 			  <br>
-              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
     	    <div id="map1"></div>
 		  </div>
         </div>
@@ -444,10 +444,10 @@ def read_template_2_vertical(jsfile, cssfile, config):
 			<button id="map2_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map2_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map2"></div>
 	      </div>
        </div>
@@ -493,7 +493,7 @@ def read_template_6(jsfile, cssfile, config):
 	code_2 = """
   <body>
 	<div class="container-fluid">
- 	  <div class="row no-gutters">
+ 	  <div class="row">
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="row no-gutters">
 			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -527,11 +527,11 @@ def read_template_6(jsfile, cssfile, config):
 			  <button id="map1_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 			  <div id="map1_lassoEnabled"><small>Disabled</small></div>
 			  <br>
-              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+              <div><button id="map1_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 			  <div><button id="map1_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
     	    <div id="map1"></div>
 		  </div>
 		</div>
@@ -569,10 +569,10 @@ def read_template_6(jsfile, cssfile, config):
 			<button id="map2_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map2_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map2_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map2_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map2"></div>
 	      </div>
        </div>
@@ -611,17 +611,17 @@ def read_template_6(jsfile, cssfile, config):
 			<button id="map3_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map3_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map3_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map3_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map3_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <<div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map3"></div>
 	      </div>
        </div>
       </div>
     </div>
 
- 	<div class="row no-gutters">
+ 	<div class="row">
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="row no-gutters">
 			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -655,11 +655,11 @@ def read_template_6(jsfile, cssfile, config):
 				<button id="map4_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 			  <div id="map4_lassoEnabled"><small>Disabled</small></div>
 			  <br>
-              <div><button id="map4_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+              <div><button id="map4_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 			  <div><button id="map4_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	
 		  </div>
-		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+		  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
     	    <div id="map4"></div>
 		  </div>
 		</div>
@@ -699,10 +699,10 @@ def read_template_6(jsfile, cssfile, config):
 			<button id="map5_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map5_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map5_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map5_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map5_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map5"></div>
 	      </div>
        </div>
@@ -741,10 +741,10 @@ def read_template_6(jsfile, cssfile, config):
 			<button id="map6_deselectLasso" type="button" class="btn btn-primary btn-xxs" data-toggle="tooltip" data-placement="right" title="Deselect Lasso">Des</button></div>
 		     <div id="map6_lassoEnabled"><small>Disabled</small></div>
 		     <br>
-             <div><button id="map6_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View.C</button></div>
+             <div><button id="map6_exportLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="View Cells">View Cells</button></div>
 		     <div><button id="map6_saveLasso" type="button" class="btn btn-primary btn-xs" data-toggle="tooltip" data-placement="right" title="Save Cells">Save.C</button></div>
 	      </div>
-	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 border border-dark">
+	      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 adjust_border">
             <div id="map6"></div>
 	      </div>
        </div>
