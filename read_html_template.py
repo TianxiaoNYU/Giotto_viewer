@@ -29,6 +29,18 @@ def read_template_4(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
+    <div>
+  		<h1>&nbsp; Giotto Viewer</h1>
+  	</div>
+  	<div>
+  		<div style="float: left;">
+  			<h3>&emsp; &emsp; —— To visualize your results</h3>
+  		</div>
+  		<div style="float: right;" align="right">
+  			<h3>By Yuan Lab &nbsp; &nbsp;</h3>
+  		</div>
+  		<div style="clear: both;"></div>
+  	</div>
 	<div class="container-fluid">
  	  <div class="row">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -248,6 +260,18 @@ def read_template_2_horizontal(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
+    <div>
+  		<h1>&nbsp; Giotto Viewer</h1>
+  	</div>
+  	<div>
+  		<div style="float: left;">
+  			<h3>&emsp; &emsp; —— To visualize your results</h3>
+  		</div>
+  		<div style="float: right;" align="right">
+  			<h3>By Yuan Lab &nbsp; &nbsp;</h3>
+  		</div>
+  		<div style="clear: both;"></div>
+  	</div>
 	<div class="container-fluid">
  	  <div class="row no-gutters">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -371,6 +395,18 @@ def read_template_2_vertical(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
+    <div>
+  		<h1>&nbsp; Giotto Viewer</h1>
+  	</div>
+  	<div>
+  		<div style="float: left;">
+  			<h3>&emsp; &emsp; —— To visualize your results</h3>
+  		</div>
+  		<div style="float: right;" align="right">
+  			<h3>By Yuan Lab &nbsp; &nbsp;</h3>
+  		</div>
+  		<div style="clear: both;"></div>
+  	</div>
 	<div class="container-fluid">
           <div class="row no-gutters">
 			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -492,6 +528,18 @@ def read_template_6(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
+    <div>
+  		<h1>&nbsp; Giotto Viewer</h1>
+  	</div>
+  	<div>
+  		<div style="float: left;">
+  			<h3>&emsp; &emsp; —— To visualize your results</h3>
+  		</div>
+  		<div style="float: right;" align="right">
+  			<h3>By Yuan Lab &nbsp; &nbsp;</h3>
+  		</div>
+  		<div style="clear: both;"></div>
+  	</div>
 	<div class="container-fluid">
  	  <div class="row">
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
