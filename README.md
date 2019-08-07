@@ -9,5 +9,5 @@ python3 -m http.server
 ```
 Then you can visualize the html file by 
 ```
-http://localhost:8000/test.jun28.html
+http://localhost:8000/test.html
 ```
