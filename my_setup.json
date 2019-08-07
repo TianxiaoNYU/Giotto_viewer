@@ -1,0 +1,55 @@
+{
+	"num_panel": 4,
+	"orientation": "vertical", 
+
+	"annotation_set": {
+		"num_annot": 2,
+		"annot_1": {
+			"file": "pleiden_clus_annot_information.txt",
+			"name": "pleiden_clus"
+		},
+		"annot_2": {
+			"file": "HMRF_k6_b.15_annot_information.txt",
+			"name": "HMRF_k6_b.15"
+		}
+	},
+	
+	"map_1": {
+		"type": "PanelTsne",
+		"maxBound": 500,
+		"id": 1,
+		"annot": "HMRF_k6_b.15",
+		"file_tsne": "tsne_tsne_dim_coord.txt",
+		"map_height": "500px"
+	},
+
+	"map_2": {
+		"type": "PanelPhysicalSimple",
+		"maxBound": 2000,
+		"id": 2,
+		"annot": "HMRF_k6_b.15",
+		"file_simple": "test_centroid_locations.txt",
+		"map_height": "500px"
+	},
+
+	"map_3": {
+		"type": "PanelTsne",
+		"maxBound": 500,
+		"id": 3,
+		"annot": "pleiden_clus",
+		"file_tsne": "tsne_tsne_dim_coord.txt",
+		"map_height": "500px"
+	},
+
+	"map_4": {
+		"type": "PanelPhysicalSimple",
+		"maxBound": 2000,
+		"id": 4,
+		"annot": "pleiden_clus",
+		"file_simple": "test_centroid_locations.txt",
+		"map_height": "500px"
+	},
+	"interact_1": ["map_1", "map_2", "map_3", "map_4"],
+	"sync_1": ["map_1", "map_3"],
+	"sync_2": ["map_2", "map_4"]
+}
