@@ -91,7 +91,7 @@ c["dir_gene_expression"], c["gene_list"])
 def generate_physical_simple_map(c):
 	header = """
 var map%d = initializeMap(elementid="map%d", zoomControl=false, zoomSnap=0.5, zoomDelta=0.5, minZoom=0, maxZoom=5, maxBound=%d);
-""" % c(["id"], c["id"], c["maxBound"])
+""" % (c["id"], c["id"], c["maxBound"])
 
 	line1 = """var t_panel_%d = new PanelPhysicalSimple({name:"physical.dot", map:map%d, mapid:%d, annot_set:a_set,
 file_simple:"%s", load_simple:true, default_annot:"%s", load_annot:true});
