@@ -547,7 +547,7 @@ function PanelTsne(params){
 	//"selected": {stroke: true, color:"red", "fillOpacity":0.5}, 
 	//"unselected": {stroke:false, "fillOpacity":0.5},
 	"selected": {"stroke": false, "dim_rest":true, "fillOpacity":1.0},
-	"unselected": {"stroke": false, "dim_rest":false, "fillOpacity":0.5},
+	"unselected": {"stroke": false, "dim_rest":false, "fillOpacity":0.4},
 	};
 	this.map2.off("zoom").on("zoom", function(){
 		var this_zoom = this.map2.getZoom();
@@ -660,7 +660,7 @@ function PanelPhysical(params){
 	//"selected": {weight:3, color:"red", "fillOpacity":0.5}, 
 	//"unselected": {weight:1, "fillOpacity":0.5},
 	"selected": {weight:1, color:"red", "dim_rest":true, "fillOpacity":1.0}, 
-	"unselected": {weight:1, "dim_rest":false, "fillOpacity":0.5},
+	"unselected": {weight:1, "dim_rest":false, "fillOpacity":0.4},
 	};
 	this.colorlist = ["#FFFF00", "#1CE6FF", "#FF34FF", "#FF4A46", "#008941", "#006FA6", "#A30059", 
 		"#FFDBE5", "#7A4900", "#0000A6", "#63FFAC", "#B79762", "#004D43", "#8FB0FF", "#997D87",
@@ -1256,7 +1256,7 @@ function PanelPhysicalSimple(params){
 	"unselected_spatial": {"color": "red", "fill":false, "fillOpacity":0.2}, 
 	"selected_spatial": {"color":"red", "fill":true, "fillOpacity":1.0}, 
 	"selected": {"stroke": false, "dim_rest":true, "fillOpacity":1.0},
-	"unselected": {"stroke": false, "dim_rest":false, "fillOpacity":0.5}};
+	"unselected": {"stroke": false, "dim_rest":false, "fillOpacity":0.4}};
 	this.map2.off("zoom").on("zoom", function(){
 		var this_zoom = this.map2.getZoom();
 		var tmap = {1:1.0, 1.5:1.5, 2:2, 2.5:2.5, 3:3, 3.5:3.5, 4:4, 4.5:4.5, 5:5};

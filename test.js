@@ -11,7 +11,7 @@ function download(filename, text) {
         pom.click();
     }
 }
-function initializeMap(elementid="map", zoomControl=false, zoomSnap=0.5, zoomDelta=0.5, minZoom=0, maxZoom=5, maxBound=4096){
+function initializeMap(elementid="map", zoomControl=false, zoomSnap=0.5, zoomDelta=0.5, minZoom=0, maxZoom=6, maxBound=4096){
     //var mapExtent = [0.0, -10240.0, 4096.0, 0.0];
     var mapExtent = [0.0, -1.0*maxBound, maxBound, 0.0];
     var mapMinZoom = minZoom;
