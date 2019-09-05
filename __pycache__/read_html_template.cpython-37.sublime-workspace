@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"S"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ti",
+				"title\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zhaotianxiao/Desktop/csvtiles/test.jun28.html",
+		"/Users/zhaotianxiao/Desktop/csvtiles/read_html_template.py",
+		"/Users/zhaotianxiao/Desktop/Yuan Lab/PapaParse-5.0.0/docs/resources/js/papaparse.js",
+		"/Users/zhaotianxiao/Desktop/csvtiles/setup.cortex.jun28.json",
+		"/Users/zhaotianxiao/Desktop/csvtiles/v_cortex_setup.json",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/my_setup.json",
+		"/Users/zhaotianxiao/Desktop/csvtiles/my_setup.json",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/test.js",
+		"/Users/zhaotianxiao/Desktop/leaflet-csvtiles demo.htm",
+		"/Users/zhaotianxiao/Desktop/HMRF_bug_report.txt",
+		"/Users/zhaotianxiao/Giotto_Docker/analyzer.R",
+		"/Users/zhaotianxiao/Giotto_Docker/pipeline.sh",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile1/saves/worldMap/worldSaveData/survival-2/perk.yml",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile1/saves/worldMap/worldSaveData/survival-2/god.yml",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile1/profileSettings.properties",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile1/profileTips.properties",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile0/profile.properties",
+		"/Users/zhaotianxiao/Desktop/profile0/saves/worldMap/WorldMaps/QuietForest/custom-135/migration.yml",
+		"/Users/zhaotianxiao/Desktop/profile0/saves/worldMap/WorldMaps/QuietForest/custom-135/missile.yml",
+		"/Users/zhaotianxiao/Desktop/profile0/saves/worldMap/WorldMaps/QuietForest/custom-135/trade.yml",
+		"/Users/zhaotianxiao/Desktop/profile0/saves/worldMap/WorldMaps/QuietForest/custom-135/weather.yml",
+		"/Users/zhaotianxiao/Desktop/profile0/saves/worldMap/WorldMaps/QuietForest/custom-135/workSelection.yml",
+		"/Users/zhaotianxiao/Desktop/profile0/saves/worldMap/WorldMaps/QuietForest/custom-135/corruption.yml",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/gameModeConfigs/test.gameMode",
+		"/Users/zhaotianxiao/Desktop/custom-204/time.yml",
+		"/Users/zhaotianxiao/Desktop/custom-204/perk.yml",
+		"/Users/zhaotianxiao/Desktop/custom-204/migration.yml",
+		"/Users/zhaotianxiao/Desktop/custom-204/god.yml",
+		"/Users/zhaotianxiao/Desktop/custom-204/chest.yml",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile0/customConfig.gameMode",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile0/profileTips.properties",
+		"/Users/zhaotianxiao/Library/Application Support/Steam/steamapps/common/Rise to Ruins/profiles/profile0/profileSettings.properties",
+		"/Users/zhaotianxiao/Desktop/custom-183/goal.yml",
+		"/Users/zhaotianxiao/Desktop/custom-183/chest.yml",
+		"/Users/zhaotianxiao/Desktop/custom-122/object.yml",
+		"/Users/zhaotianxiao/Desktop/custom-122/resource.yml",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/test.html",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/js/script.stitched.class.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/pipeline.sh",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer_example/cortex/test.jun28.html",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/read_html_template.py",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/test.css",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/read_css_template.py",
+		"/Users/zhaotianxiao/Desktop/Giotto_viewer/read_config.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/js/script.stitched.class.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/read_html_template.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/read_config.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/test.jun28.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/test.jun28.html",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/test.jun28.css",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/analyzer.R",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Normal_filter/Viewer/js/script.stitched.class.js",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer/giotto-viewer.js/js/script.stitched.class.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/read_css_template.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Normal_filter/Viewer/test.jun28.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Normal_filter/Viewer/test.jun28.html",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Normal_filter/Viewer/my_setup.json",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Normal_filter/Viewer/js/leaflet-lasso.js",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer_example/cortex/js/script.stitched.class.js",
+		"/Users/zhaotianxiao/Desktop/Game/Rise to Ruins.app/Contents/MacOS/run.sh",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Normal_filter/Viewer/read_config.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/Strong_filter/Viewer_example/image_processing.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/Strong_filter/Viewer_example/step1_setup.py",
+		"/Users/zhaotianxiao/Desktop/pipeline.sh",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/Strong_filter/Viewer_example/js/script.stitched.class.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/Strong_filter/Viewer_example/my_setup.json",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/Strong_filter/Viewer_example/read_config.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/my_setup.json",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/do_all_stitch.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/setup.json",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/js/script.stitched.simple.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/Strong_filter/Viewer_example/pre_setup.json",
+		"/setup.json",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_6/pipeline.sh",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer_example/cortex/setup.cortex.jun28.json",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer_example/cortex/read_config.py",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180611_1/analyzer.R",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/analyzer.R",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/pipeline.sh",
+		"/Users/zhaotianxiao/Desktop/test.R",
+		"/Users/zhaotianxiao/Desktop/func_time_analysis.txt",
+		"/Users/zhaotianxiao/Desktop/func_time_analysis",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/ViewerInput/test.jun28.html",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/ViewerInput/test.jun28.js",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/ViewerInput/test.jun28.css",
+		"/Users/zhaotianxiao/Desktop/Slide_seq_test/180430_1/ViewerInput/myset.json",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer_example/analyzer_example.R",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/script.stitched.class.js",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer/giotto-viewer.js/js/script.stitched.2.js",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer/giotto-viewer.js/js/leaflet-lasso-2.js",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer/giotto-viewer.js/js/bootstrap.4.1.0.min.js",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer/giotto-viewer.js/js/jquery-ui.min.js",
+		"/Library/Frameworks/R.framework/Versions/3.5/Resources/library/Giotto/R/Giotto",
+		"/Library/Frameworks/R.framework/Versions/3.5/Resources/library/Giotto/python/reader.py",
+		"/Users/zhaotianxiao/Desktop/Giotto/Analyzer/Giotto_Analyzer_master/inst/python/reader.py",
+		"/Users/zhaotianxiao/Desktop/Giotto/softwaredir/segmentation.py",
+		"/Users/zhaotianxiao/Desktop/Giotto/softwaredir/image_processing.py",
+		"/Users/zhaotianxiao/Desktop/Giotto/softwaredir/do_all_stitch.py",
+		"/Users/zhaotianxiao/Desktop/Puck_180611_14/AnalysisOutputs-selected.mat",
+		"/Users/zhaotianxiao/Downloads/softwaredir/segmentation.py",
+		"/Users/zhaotianxiao/Downloads/softwaredir/image_processing.py",
+		"/Users/zhaotianxiao/Desktop/Giotto/Viewer/v_cortex_setup.json",
+		"/Users/zhaotianxiao/Downloads/data/test.py",
+		"/Users/zhaotianxiao/Desktop/Giotto viewer.html",
+		"/Users/zhaotianxiao/giotto-viewer.js/css/Material.Icons.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/css/bootstrap.4.1.0.min.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/jquery-ui.min.js",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/script.js",
+		"/Users/zhaotianxiao/giotto-viewer.js/css/style.stitched.4.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/css/grid.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/script.stitched.2.js",
+		"/Users/zhaotianxiao/Desktop/test/js/map.js",
+		"/Users/zhaotianxiao/Desktop/test/test.html",
+		"/Users/zhaotianxiao/Desktop/test/map.js",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/L.Map.Sync.js",
+		"/Users/zhaotianxiao/Downloads/leaflet/leaflet-src.js",
+		"/Users/zhaotianxiao/Downloads/leaflet/leaflet.js",
+		"/Users/zhaotianxiao/Downloads/leaflet/leaflet.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/leaflet.js",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/leaflet-lasso-2.js",
+		"/Users/zhaotianxiao/Downloads/bootstrap-4.3.1-dist/js/bootstrap.min.js.map",
+		"/Users/zhaotianxiao/test.html",
+		"/Users/zhaotianxiao/giotto-viewer.js/css/jquery-ui.min.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/css/font-awesome.4.7.0.min.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/css/leaflet.css",
+		"/Users/zhaotianxiao/giotto-viewer.js/js/leaflet-lasso.js",
+		"/Users/zhaotianxiao/giotto-viewer/tutorial.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "read_html_template.cpython-37.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

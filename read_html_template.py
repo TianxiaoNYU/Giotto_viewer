@@ -29,12 +29,12 @@ def read_template_4(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
-    <div class="page-header">
-    	<h1>&nbsp; Giotto Viewer</h1>
+    <div class="page-header" style="margin-left:10px;">
+    	<h1>Giotto Viewer</h1>
     </div>
-  	<div>
-  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank"> &nbsp; &nbsp; &nbsp;Spatial Transcriptomics Hub</a>
-  	</div>
+   	<div>
+  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank" style="margin-left:60px;"> Spatial Transcriptomics Hub</a>
+ 	</div>
 	<div class="container-fluid">
  	  <div class="row">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -254,12 +254,12 @@ def read_template_2_horizontal(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
-    <div class="page-header">
-    	<h1>&nbsp; Giotto Viewer</h1>
+    <div class="page-header" style="margin-left:10px;">
+    	<h1>Giotto Viewer</h1>
     </div>
-  	<div>
-  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank"> &nbsp; &nbsp; &nbsp;Spatial Transcriptomics Hub</a>
-  	</div>
+   	<div>
+  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank" style="margin-left:60px;"> Spatial Transcriptomics Hub</a>
+ 	</div>
 	<div class="container-fluid">
  	  <div class="row no-gutters">
 		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -383,12 +383,12 @@ def read_template_2_vertical(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
-    <div class="page-header">
-    	<h1>&nbsp; Giotto Viewer</h1>
+    <div class="page-header" style="margin-left:10px;">
+    	<h1>Giotto Viewer</h1>
     </div>
-  	<div>
-  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank"> &nbsp; &nbsp; &nbsp;Spatial Transcriptomics Hub</a>
-  	</div>
+   	<div>
+  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank" style="margin-left:60px;"> Spatial Transcriptomics Hub</a>
+ 	</div>
 	<div class="container-fluid">
           <div class="row no-gutters">
 			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
@@ -510,12 +510,12 @@ def read_template_6(jsfile, cssfile, config):
 
 	code_2 = """
   <body>
-    <div class="page-header">
-    	<h1>&nbsp; Giotto Viewer</h1>
+    <div class="page-header" style="margin-left:10px;">
+    	<h1>Giotto Viewer</h1>
     </div>
-  	<div>
-  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank"> &nbsp; &nbsp; &nbsp;Spatial Transcriptomics Hub</a>
-  	</div>
+   	<div>
+  		<a href="http://spatial.rc.fas.harvard.edu/" target="_blank" style="margin-left:60px;"> Spatial Transcriptomics Hub</a>
+ 	</div>
 	<div class="container-fluid">
  	  <div class="row">
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
